@@ -16,6 +16,7 @@ int _putchar(char c)
 /**
  * print_char - writes the character c to stdout
  * @form: The character to print
+ * @f: argument
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
