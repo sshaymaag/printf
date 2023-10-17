@@ -19,7 +19,7 @@ int _putchar(char c)
  * @f: argument
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set.
  */
 int print_char(va_list form,  flags_t *f)
 {
