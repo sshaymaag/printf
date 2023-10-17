@@ -4,6 +4,7 @@
 /**
  ** print_binary - Prints the binary representation of an unsigned integer
  ** @form: The unsigned integer to be converted to binary and printed
+ * @f: argument
  **
  ** Return: Number of digits (bits) printed
  */

@@ -6,6 +6,7 @@
 /**
 ** print_unsigned - Prints an unsigned integer
 ** @form: The unsigned integer to be printed
+* @f: argument
 **
 ** Return: Number of digits printed
 */
@@ -23,6 +24,7 @@ int print_unsigned(va_list form,  flags_t *f)
 /**
 ** print_octal - Prints an unsigned integer in octal notation
 ** @form: The unsigned integer to be printed
+* @f: argument
 **
 ** Return: Number of octal digits printed
 */
@@ -41,6 +43,7 @@ int print_octal(va_list form, flags_t *f)
 /**
 ** print_hex - Prints an unsigned integer in hexadecimal notation
 ** @form: The unsigned integer to be printed
+* @f: argument
 **
 ** Return: Number of hexadecimal digits printed
 */
@@ -59,6 +62,7 @@ int print_hex(va_list form, flags_t *f)
 /**
 ** print_hex1 - Prints an unsigned integer in hexadecimal notation
 ** @form: The unsigned integer to be printed
+* @f: argument
 **
 ** Return: Number of hexadecimal digits printed
 */
