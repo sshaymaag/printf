@@ -45,7 +45,7 @@ void print_number(int n)
 
 
 /**
- * print_int - prints an int
+ * handleInt - prints an int
  * @form: va_list of arg
  * @f: pointer to the struct
  * Return: number of char

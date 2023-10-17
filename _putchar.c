@@ -24,6 +24,6 @@ int print_char(va_list form,  flags_t *f)
 {
 	char c = va_arg(form, int);
 	(void)f;
-	
+
 	return (write(1, &c, 1));
 }
