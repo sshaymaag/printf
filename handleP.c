@@ -45,6 +45,7 @@ int _puts(char *str)
  * handleP - loops through a string and prints
  * every character
  * @form: va_list arguments from _printf
+ * @f: argument
  * if a flag is passed to _printf
  * Return: number of char printed
  */
@@ -66,6 +67,7 @@ int handleP(va_list form, flags_t *f)
 /**
  * rot13 - encodes a string into rot13
  * @form: string to encode
+ * @f: argument
  *
  * Return: address of s
  */
@@ -97,6 +99,7 @@ int rot13(va_list form, flags_t *f)
 /**
  * print_rev - reverse str
  * @form: argument
+ * @f: argument
  * Return: length string
  */
 int print_rev(va_list form, flags_t *f)

@@ -8,6 +8,7 @@
 /**
  * print_cent - Prints a string using a local buffer.
  * @form: The string to be printed.
+ * @f: argument
  *
  * Return: The number of characters printed.
  */
@@ -22,6 +23,7 @@ int print_cent(va_list form, flags_t *f)
 /**
  * print_string - Prints a string using a local buffer.
  * @form: The string to be printed.
+ * @f: argument
  *
  * Return: The number of characters printed.
  */
@@ -61,6 +63,7 @@ int print_string(va_list form, flags_t *f)
 /**
 * print_bigS - Non printable char
 * @form: va_list arguments
+* @f: argument
 * Return: number of char
 */
 int print_bigS(va_list form, flags_t *f)
